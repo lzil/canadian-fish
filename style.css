@@ -1,0 +1,66 @@
+html {
+	background-color: #ddd;
+	margin:0;
+	font-family: helvetica;
+}
+
+body {
+	text-align:center;
+	margin:auto;
+}
+
+.card {
+	display:inline-block;
+	height:70px;
+	width:50px;
+	background-color:white;
+	border-radius:5px;
+	margin:auto;
+	border:1px solid black;
+}
+
+.card-facedown {
+	background-color:purple;
+	margin-right:-20px;
+	margin-left:-20px;
+}
+
+.card-text {
+	margin:auto;
+	text-align:center;
+	height:100%;
+}
+
+
+#players {
+	font-size:0;
+	border-spacing:0;
+	margin:auto;
+	padding:0;
+	width:800px;
+	display:block;
+	background-color:white;
+	text-align:center;
+}
+.player {
+	font-size:18px;
+	background-color:blue;
+	display:inline-block;
+	width: 200px;
+	margin:20px;
+	height:200px;
+	color:black;
+	position:relative;
+	text-align:center;
+}
+.player-name {
+	display:inline-block;
+	color:white;
+}
+
+.player-info {
+	margin:auto;
+	width:100%;
+	background-color: red;
+	position:absolute;
+}
